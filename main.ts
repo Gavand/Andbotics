@@ -1,7 +1,4 @@
-input.onButtonPressed(Button.A, function on_button_pressed_a() {
-    
-})
-input.onButtonPressed(Button.B, function on_button_pressed_b() {
+input.onButtonPressed(Button.A, function () {
     PCA9685.setServoPosition(PCA9685.ServoNum.Servo4, 80, 64)
     PCA9685.setServoPosition(PCA9685.ServoNum.Servo13, 100, 64)
     basic.pause(2000)
